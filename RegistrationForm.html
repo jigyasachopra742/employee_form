@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css"></link>
+    </head>
+
+    <body>
+        <h1>Employee Registration Form</h1>
+        <form class="eform">
+            <label for="fname" name="fname"><b>First name of Employee:</b></label>
+            <input type="text" id="fname" name="fname" placeholder="first name of employee..."><br><br>
+                
+            <label for="lname" name="lname"><b>Last name of Employee: </b></label>
+            <input type="text" id="lname" name="lname" placeholder="last name of employee..."><br><br>
+
+            <label for="gender"><b>Gender of Employee: </b></label>
+            <select for="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br><br>
+                
+            <label for="email" name="email"><b>Email of Employee: </b></label>
+            <input type="text" id="email" name="email" placeholder="enter email of employee..."><br><br>
+                
+            <label for="phone" name="phone"><b>Phone of Employee:</b></label>
+            <input type="text" id="phone" name="phone"  placeholder="enter phone of employee..."><br><br>
+                
+            <label for="address" name="address"><b>Address of Employee: </b></label>
+            <input type="text" id="address" name="address"  placeholder="enter address of employee..."><br><br>
+                
+            <label for="experience"><b>Experience of Employee: </b></label>
+            <input type="number" id="experience" name="experience" min="1" max="5"><br><br>
+                
+            <label for="skillsets"><b>Skillsets of Employee: </b></label><br><br>
+                
+            <input type="checkbox" id="skillsets1" name="skillsets1" value="HTML">
+            <label for="skillsets1"> HTML</label><br>
+                
+            <input type="checkbox" id="skillsets2" name="skillsets2" value="CSS">
+            <label for="skillsets2"> CSS</label><br>
+                
+            <input type="checkbox" id="skillsets3" name="skillsets3" value="JavaScript">
+            <label for="skillsets3">JavaScript</label><br>
+
+            <input type="checkbox" id="skillsets4" name="skillsets4" value="ReactJS">
+            <label for="skillsets4">ReactJS</label><br>
+
+            <input type="checkbox" id="skillsets5" name="skillsets5" value="DotNet">
+            <label for="skillsets5">DotNet</label><br>
+
+            <input type="checkbox" id="skillsets6" name="skillsets6" value="Salesforce">
+            <label for="skillsets6">Salesforce</label><br>
+            <br><br>
+            
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="Reset">Clear</button>
+        </form>
+    </body>
+</html>

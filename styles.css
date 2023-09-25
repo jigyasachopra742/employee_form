@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    color: rgb(116, 116, 181);
+}
+.eform{
+    border: 10px solid rgb(116, 124, 180);
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+input[type=text], select{
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=number]{
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=checkbox]{
+    width: 5%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline;
+    border: none;
+    background: #f1f1f1;
+}
+button[type=submit]{
+    margin-left: 30px;
+    background-color: #4c84af;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    opacity: 0.9;
+}
+button[type=reset]{
+    background-color: #4c84af;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    opacity: 0.9;
+}
